@@ -17,11 +17,11 @@ end
 
 require "lazy_setup"
 require "polish"
-require "options"
+-- require "options"
 
 -- ============= USER CONFIG =============
 
--- vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
--- vim.opt.relativenumber = false
--- vim.opt.wrap = true
+vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
+vim.opt.relativenumber = false
+vim.opt.wrap = true
 
