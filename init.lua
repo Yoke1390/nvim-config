@@ -25,3 +25,5 @@ require "options"
 -- vim.opt.relativenumber = false
 -- vim.opt.wrap = true
 
+local cfg = {}  -- add your config here
+require "lsp_signature".setup(cfg)
