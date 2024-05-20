@@ -21,7 +21,13 @@ require "polish"
 
 -- ============= USER CONFIG =============
 
+<<<<<<< HEAD
 vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
 vim.opt.relativenumber = false
 vim.opt.wrap = true
 
+=======
+-- vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
+-- vim.opt.relativenumber = false
+-- vim.opt.wrap = true
+>>>>>>> ki00281
