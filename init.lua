@@ -24,6 +24,3 @@ require "options"
 -- vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
 -- vim.opt.relativenumber = false
 -- vim.opt.wrap = true
-
-local cfg = {}  -- add your config here
-require "lsp_signature".setup(cfg)

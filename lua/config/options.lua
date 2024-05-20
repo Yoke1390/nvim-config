@@ -1,8 +1,6 @@
 -- set vim options here (vim.<first_key>.<second_key> = value)
 
-vim.opt.relativenumber = false
-vim.opt.wrap = true
-vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
+-- vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
 
 return {
   opt = {
