@@ -23,8 +23,12 @@ return {
       { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
     },
   },
+  {
+    "github/copilot.vim",
+    lazy=false,
+  },
 
-  -- == Examples of Overriding Plugins ==
+    -- == Examples of Overriding Plugins ==
 
   -- customize alpha options
   {
