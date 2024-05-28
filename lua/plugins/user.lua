@@ -11,13 +11,16 @@ return {
     lazy=false,
   },
   {
-      'nvimdev/lspsaga.nvim',
-      config = function()
-          require('lspsaga').setup({})
-      end,
-      dependencies = {
-          'nvim-treesitter/nvim-treesitter', -- optional
-          'nvim-tree/nvim-web-devicons',     -- optional
-      }
+    'nvimdev/lspsaga.nvim',
+    config = function()
+        require('lspsaga').setup({})
+    end,
+    dependencies = {
+        'nvim-treesitter/nvim-treesitter', -- optional
+        'nvim-tree/nvim-web-devicons',     -- optional
+    },
+    keys = {
+      { '<leader>lk', '<cmd>Lspsaga hover_doc<cr>' },
+    },
   },
 }
