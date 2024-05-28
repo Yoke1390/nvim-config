@@ -2,7 +2,7 @@
 
 -- vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
 
-local options ={
+local options = {
   opt = {
     relativenumber = false,
     number = true,
@@ -28,6 +28,5 @@ for first_key in pairs(options) do
     vim[first_key][second_key] = value
   end
 end
-
 
 return options
