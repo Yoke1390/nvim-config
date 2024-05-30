@@ -20,3 +20,4 @@ require "polish"
 
 require "options"
 require "keymaps"
+require "function"
