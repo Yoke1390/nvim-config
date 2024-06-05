@@ -1,5 +1,9 @@
 return {
     "keaising/im-select.nvim",
+    cond = function()
+        -- MacOSの場合にのみtrueを返す
+        return vim.fn.has('mac') == 1
+    end,
     config = function()
         require('im_select').setup({
             -- IM will be set to `default_im_select` in `normal` mode
