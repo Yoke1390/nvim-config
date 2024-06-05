@@ -1,6 +1,9 @@
 local keymap = {
   n = {
     ["<C-t>"] = "<cmd>ToggleTerm<CR>",
+    ["<leader>fp"] = "<cmd>Telescope commands<CR>",
+    ["<leader>fP"] = "<cmd>Telescope command_history<CR>",
+    ["<leader>mk"] = "<cmd>make<CR>",
   },
   t = {
     ["<ESC>"] = [[<C-\><C-n>]],
