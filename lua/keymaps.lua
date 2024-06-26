@@ -1,5 +1,6 @@
 local keymap = {
   n = {
+    ["Y"] = "y$",
     ["<C-t>"] = "<cmd>ToggleTerm<CR>",
     ["<leader>fp"] = "<cmd>Telescope commands<CR>",
     ["<leader>fP"] = "<cmd>Telescope command_history<CR>",
